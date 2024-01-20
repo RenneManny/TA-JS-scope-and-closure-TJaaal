@@ -107,4 +107,4 @@ hello.user = 'Sam'; // invalid The code is invalid because hello is a function n
 9. What is higher order function explain with an example.
 <!-- A higher-order function in JavaScript is a function that takes one or more functions as arguments or returns a function as its result -->
 10. Explain what is callback function. Why you can pass a function inside a function?
-<!-- A callback function in JavaScript is a function that is passed as an argument to another function  -->
+<!-- A callback function in JavaScript is a function that is passed as an argument to another function .Passing a function inside another function is possible in JavaScript due to the language's support for treating functions as first-class citizens.  -->
