@@ -12,14 +12,14 @@ function change() {
   console.log(species);
 }
 
-console.log(species); // 1
+console.log(species); // vampire
 change();
-console.log(species); // 2
+console.log(species); // human
 ```
 
 <!-- Put your image below -->
 
-![](./img/image-name.jpg)
+![](./images/p1.png)
 
 - Create the execution context diagram
 - What will be the value of species on 1 and 2
@@ -47,7 +47,7 @@ topLevelFn();
 
 <!-- Put your image below -->
 
-![](./img/image-name.jpg)
+![](./images)
 
 - Create the execution context diagram
 - What will be the value of 1 and 2
@@ -68,7 +68,7 @@ function main() {
     console.log(two); // 2
     console.log(three); // 3
   }
-  console.log(four); // 4
+  console.log(four); // error
   inner();
 }
 
@@ -78,7 +78,7 @@ console.log(one, two, three, four); // 5
 
 <!-- Put your image below -->
 
-![](./img/image-name.jpg)
+![](./images/03.png)
 
 - Create the execution context diagram
 - What will be the value of 1, 2, 3, 4 and 5 or error if the code does not work
