@@ -5,7 +5,8 @@ To create the execution context diagram consider the following:
 - Var let and const
 
 Create the execution context diagram of the following code line by line.
- ! [](./images/01.png)
+! [](./images/01.png)
+
 ```js
 let num = 21;
 function square(num) {
@@ -13,11 +14,11 @@ function square(num) {
 }
 let hundred = square(10);
 console.log(hundred);
-
 ```
 
 Create the execution context diagram of the following code line by line.
 ! [](./images/02.png)
+
 ```js
 var num = 21;
 function addFive(n) {
