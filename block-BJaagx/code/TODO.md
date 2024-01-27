@@ -2,7 +2,7 @@
 1. Which all function is Higher order function and which one is a callback function in the code given below.
 
 ```js
-let marks = [34, 45, 56, 76];
+let marks = [34, 45, 56, 76]; //higher order function
 function multiplyArrayByN(arr, cb) {
   let finalArr = [];
   for (let elm of arr) {
@@ -10,11 +10,11 @@ function multiplyArrayByN(arr, cb) {
   }
   return finalArr;
 }
-function addFive(n) {
+function addFive(n) { //callback function
   return n + 5;
 }
 function multiplyBy5(n) {
-  return n * 5;
+  return n * 5;           //calback function
 }
 let numbersAddedFive = multiplyArrayByN(marks, addFive);
 let numbersMultipliedBy5 = multiplyArrayByN(marks, multiplyBy5);
@@ -26,8 +26,9 @@ let numbersMultipliedBy5 = multiplyArrayByN(marks, multiplyBy5);
 
 ```js
 function operation(n, opFn) {
-  // your code goes her
+  return opFn(n);
 }
+
 // TEST
 console.log(
   operation(21, function (n) {
@@ -35,12 +36,14 @@ console.log(
   })
 );
 // Output: 2.1
+
 console.log(
   operation(10, function (n) {
     return (n * n) / 5;
   })
 );
 // Output: 20
+
 ```
 
 4. Write a higher order function that accepts a string and a operation function (callback function). Call the callback function passing the string as argument and return the returned value.
