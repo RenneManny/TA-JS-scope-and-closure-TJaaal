@@ -6,16 +6,15 @@
 
 ```js
 function forEach(array, callback) {
-    array.reduce((_, currentValue, index, arr) => {
-        callback(currentValue, index, arr);
-    }, null);
+  array.reduce((_, currentValue, index, arr) => {
+    callback(currentValue, index, arr);
+  }, null);
 }
 
 // Test Your Code
-forEach(['Sam', 'Jon', 'Arya'], (name, i, arr) =>
-    console.log(name + name, i, arr)
+forEach(["Sam", "Jon", "Arya"], (name, i, arr) =>
+  console.log(name + name, i, arr)
 );
-
 ```
 
 2. Implement `map` array method using Array.reduce
@@ -34,7 +33,7 @@ function map(array, callback) {
 
 
 const mappedArray = map(['Sam', 'Jon', 'Arya'], (name) => name + name);
-console.log(mappedArray); // Output: ['SamSam', 'JonJon', 'AryaArya']
+console.log(mappedArray); /
 Sam', 'Jon', 'Arya'], (name) => name + name); // ['SamSam', 'JonJon', 'AryaArya']
 ```
 
@@ -46,18 +45,16 @@ Sam', 'Jon', 'Arya'], (name) => name + name); // ['SamSam', 'JonJon', 'AryaArya'
 
 ```js
 function filter(array, callback) {
-    return array.reduce((result, currentValue, index, arr) => {
-        if (callback(currentValue, index, arr)) {
-            result.push(currentValue);
-        }
-        return result;
-    }, []);
+  return array.reduce((result, currentValue, index, arr) => {
+    if (callback(currentValue, index, arr)) {
+      result.push(currentValue);
+    }
+    return result;
+  }, []);
 }
 
-// Test Your Code
-const filteredArray = filter(['Sam', 'Jon', 'Arya'], (name) =>
-    name.startsWith('S')
+const filteredArray = filter(["Sam", "Jon", "Arya"], (name) =>
+  name.startsWith("S")
 );
-console.log(filteredArray); // Output: ['Sam']
-
+console.log(filteredArray);
 ```
