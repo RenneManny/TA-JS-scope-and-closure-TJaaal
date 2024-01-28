@@ -4,7 +4,7 @@ Create the execution context diagram for the following code snippets:
 function outer() {
   let b = 10;
   function inner() {
-    let a =  20;
+    let a =  120;
     console.log(a + b);
   }
   return inner;
