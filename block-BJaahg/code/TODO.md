@@ -56,7 +56,7 @@ console.log(one, two);
 
 ```js
 console.log(addOne(0));
-fucntion addOne(num){
+fucntion a ddOne(num){
   return num + 1;
 }
 var two = addOne(1);
