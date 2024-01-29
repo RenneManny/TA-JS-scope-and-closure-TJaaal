@@ -98,10 +98,10 @@ let number = 21;
 let message = sayHello(username);
 
 let sayHello = function (name) {
-  return `Hello ${name}`;
+  return `Hell o ${name}`;
 };
 
-var nextMessage = sayHello('Test');
+var nextMessge = sayHello('Test');
 ```
 
 <!-- Answer -->
