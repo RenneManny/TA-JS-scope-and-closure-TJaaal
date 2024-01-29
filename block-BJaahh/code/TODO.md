@@ -3,10 +3,17 @@
 1. Write a function called `multiplyBy` that takes a `number` as an argument and returns a function. Returned function takes another `number` as an argument and returns the multiplication of both the numbers.
 
 ```js
-// Your code goes here
+function multiplyBy(factor) {
+  return function (number) {
+    return factor * number;
+  };
+}
 
 const double = multiplyBy(2);
-const final = double(15); // final should be 30
+const final = double(15);
+
+console.log(final);  // Output: 30
+// final should be 30
 ```
 
 2. Write a function called `fullName` that takes a string `firstName` as an argument and returns a function. Returned function takes another string `lastName` as an argument and returns full name.
@@ -14,8 +21,17 @@ const final = double(15); // final should be 30
 ```js
 // Your code goes here
 
+function fullName(initialName) {
+  return function (lastName) {
+    return initialName + ' ' + lastName;
+  };
+}
+
 const name = fullName('Will');
-const final = name('Smith'); // final should be "Will Smith"
+const final = name('Smith');
+
+console.log(final);  
+// final should be "Will Smith"
 ```
 
 3. Write a function called `isInBetween` which takes two parameter `a` and `b` and returns a function. When you call the returned function with any number it returns `true` if the value is in between `a` and `b`.
