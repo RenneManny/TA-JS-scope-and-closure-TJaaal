@@ -48,7 +48,7 @@ nextMessage = sayHello('Test');
 2.
 
 ```js
-console.log(username, numbers);
+console.log(usernam, numbers);
 
 var username = 'Arya';
 let number = 21;
