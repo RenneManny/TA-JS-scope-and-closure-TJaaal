@@ -7,17 +7,17 @@ For Example:
 1.
 
 ```js
-var username = 'Arya';
-let brothers = ['John', 'Ryan', 'Bran'];
+var username = "Arya";
+let brothers = ["John", "Ryan", "Bran"];
 
 console.log(username, brothers[0]);
 
 function sayHello(name) {
-  return `Hello ${name}`;
+  retur n `Hello ${name}`;
 }
 
 let message = sayHello(username);
-var nextMessage = sayHello('Test');
+var nextMessage = sayHello("Test");
 ```
 
 <!-- Answer -->
@@ -36,13 +36,13 @@ var nextMessage = undefined;
 
 // Execution Phase
 
-username = 'Arya';
-brothers = ['John', 'Ryan', 'Bran'];
+username = "Arya";
+brothers = ["John", "Ryan", "Bran"];
 
 console.log(username, brothers[0]);
 
 message = sayHello(username);
-nextMessage = sayHello('Test');
+nextMessage = sayHello("Test");
 ```
 
 2.
@@ -50,7 +50,7 @@ nextMessage = sayHello('Test');
 ```js
 console.log(usernam, numbers);
 
-var username = 'Arya';
+var username = "Arya";
 let number = 21;
 
 function sayHello(name) {
@@ -58,7 +58,7 @@ function sayHello(name) {
 }
 
 let message = sayHello(username);
-var nextMessage = sayHello('Test');
+var nextMessage = sayHello("Test");
 ```
 
 <!-- Answer -->
@@ -71,7 +71,7 @@ var nextMessage = sayHello('Test');
 
 ```js
 console.log(username, numbers);
-let username = 'Arya';
+let username = "Arya";
 let number = 21;
 
 let sayHello = function (name) {
@@ -79,19 +79,20 @@ let sayHello = function (name) {
 };
 
 let message = sayHello(username);
-var nextMessage = sayHello('Test');
+var nextMessage = sayHello("Test");
 ```
 
 <!-- Answer -->
 
 ```js
 // Your code goes here
+
 ```
 
 4.
 
 ```js
-let username = 'Arya';
+let username = "Arya";
 console.log(username, numbers);
 
 let number = 21;
@@ -101,7 +102,7 @@ let sayHello = function (name) {
   return `Hell o ${name}`;
 };
 
-var nextMessge = sayHello('Test');
+var nextMessge = sayHello("Test");
 ```
 
 <!-- Answer -->
@@ -115,7 +116,7 @@ var nextMessge = sayHello('Test');
 ```js
 console.log(name);
 console.log(age);
-var name = 'Lydia';
+var name = "Lydia";
 let age = 21;
 ```
 
@@ -131,7 +132,7 @@ let age = 21;
 function sayHi(name) {
   console.log(name);
   console.log(age);
-  var name = 'Lydia';
+  var name = "Lydia";
   let age = 21;
 }
 
@@ -151,7 +152,7 @@ sayHi();
 function sayHi(name) {
   console.log(name);
   console.log(age);
-  var name = 'Lydia';
+  var name = "Lydia";
   let age = 21;
 }
 ```
@@ -169,7 +170,7 @@ sayHi();
 let sayHi = function sayHi(name) {
   console.log(name);
   console.log(age);
-  var name = 'Lydia';
+  var name = "Lydia";
   let age = 21;
 };
 ```
