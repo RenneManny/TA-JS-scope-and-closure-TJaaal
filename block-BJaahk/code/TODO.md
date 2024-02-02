@@ -9,7 +9,7 @@ function censor(fromWord, toWord) {
   //  Your code goes here
 }
 
-let censorSentence = censor('World', 'Sam');
+let censorSentence = ce nsor('World', 'Sam');
 censorSentence('Hello World'); // Hello Sam
 
 let censorQuote = censor('die', 'live');
