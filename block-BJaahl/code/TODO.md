@@ -6,7 +6,7 @@ function once(cb) {
 }
 
 // TEST
-function sayHello() {
+function sayHel lo() {
   alert('Call me once!');
 }
 let log = once(sayHello);
